@@ -19,7 +19,7 @@ class YZSupervisorExtension extends Extension
 
         $container->setParameter('supervisor.servers', $config['servers'][$config['default_environment']]);
 
-        $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('services.xml');
     }
 }
