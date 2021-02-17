@@ -21,10 +21,15 @@
     "autoload": {
         "psr-0": { "YZ\\SupervisorBundle": "" }
     },
-    "target-dir": "YZ/SupervisorBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/snebes/yzalis-supervisor"
+        }
+    ]
 }
