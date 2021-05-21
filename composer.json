@@ -1,5 +1,5 @@
 {
-    "name": "yzalis/supervisor-bundle",
+    "name": "avtehnik/yzalis-supervisor-bundle",
     "type": "symfony-bundle",
     "description": "Manage your supervisor instance in your Symfony2 application.",
     "keywords": ["supervisor", "supervisord", "supervisorctl", "rpc", "api"],
@@ -30,7 +30,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/snebes/yzalis-supervisor"
+            "url": "https://github.com/avtehnik/yzalis-supervisor-bundle"
         }
     ]
 }
