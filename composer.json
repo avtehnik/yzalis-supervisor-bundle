@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "yzalis/supervisor": ">=1.0.0"
+        "avtehnik/supervisor": "dev-main"
     },
     "autoload": {
         "psr-0": { "YZ\\SupervisorBundle": "" }
@@ -30,7 +30,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/avtehnik/yzalis-supervisor-bundle"
+            "url": "https://github.com/avtehnik/Supervisor"
         }
     ]
 }
